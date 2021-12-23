@@ -1,0 +1,920 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.country {
+  width: 100vw;
+}
+
+.country .res {
+  width: 100vw;
+}
+
+.country .res .whole_page {
+  min-height: 100vh;
+}
+
+.country .res .whole_page .circle_1 {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+  background-color: #ffcdcd;
+  position: absolute;
+  top: 24%;
+  right: 3%;
+  margin-left: 2rem;
+}
+
+.country .res .whole_page .circle_2 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #cdf9ff;
+  position: absolute;
+  top: 500px;
+  left: 240px;
+}
+
+.country .res .whole_page .circle_3 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #dbffde;
+  position: absolute;
+  top: 900px;
+  right: 50px;
+}
+
+.country .res .whole_page .circle_4 {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: #fff8d3;
+  position: absolute;
+  top: 85rem;
+  right: 42.5rem;
+}
+
+.country .res .whole_page .circle_5 .illustration {
+  position: absolute;
+  top: 140rem;
+  right: 0;
+  left: 0;
+}
+
+.country .res .abs {
+  position: absolute;
+  top: 7rem;
+}
+
+.country .res .abs .main {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 15%;
+  -ms-grid-columns: 25rem 25rem;
+      grid-template-columns: 25rem 25rem;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10%;
+      grid-template-areas: "card1 card11" "card12 card11" "card12 card13" "card14 card13" "card14 card15" "card16 card15" "card16 card8";
+}
+
+.country .res .abs .main .card1 {
+  height: 23rem;
+  width: 25rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: card1;
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.country .res .abs .main .card1 .heading {
+  margin-top: 7rem;
+  font-size: 4vh;
+}
+
+.country .res .abs .main .card1 i {
+  font-size: 2.5rem;
+  color: #3a3aff;
+  margin: 1rem 0 0 2rem;
+}
+
+.country .res .abs .main .card11 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: card11;
+  width: 25rem;
+  min-height: 40rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card11 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card11 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.country .res .abs .main .card11 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card11 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card11 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card11 .content .box {
+  width: 100%;
+  border: 1px solid #707070;
+}
+
+.country .res .abs .main .card11 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card11 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card11 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card11 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card11 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.country .res .abs .main .card11 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card12 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: card12;
+  width: 25rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card12 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card12 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.country .res .abs .main .card12 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card12 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card12 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card12 .content .box {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.country .res .abs .main .card12 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card12 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card12 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card12 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card12 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card12 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card13 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: card13;
+  width: 25rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card13 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card13 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.country .res .abs .main .card13 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card13 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card13 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card13 .content .box {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.country .res .abs .main .card13 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card13 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card13 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card13 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card13 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card13 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card14 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: card14;
+  width: 25rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card14 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card14 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.country .res .abs .main .card14 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card14 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card14 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card14 .content .box {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.country .res .abs .main .card14 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card14 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card14 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card14 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card14 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card14 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card15 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: card15;
+  width: 25rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card15 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card15 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.country .res .abs .main .card15 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card15 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card15 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card15 .content .box {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.country .res .abs .main .card15 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card15 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card15 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card15 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card15 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card15 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card16 {
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: card16;
+  width: 25rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 0px 25px #d2d2d2;
+          box-shadow: 0px 0px 25px #d2d2d2;
+  margin-bottom: 9rem;
+}
+
+.country .res .abs .main .card16 .pic .imoge {
+  width: 100%;
+  height: 15.5em;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+
+.country .res .abs .main .card16 .pic .name {
+  height: 3rem;
+  width: 11rem;
+  background: white;
+  position: relative;
+  top: -5rem;
+  padding: 0.3rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.country .res .abs .main .card16 .pic .name .text {
+  text-align: center;
+  color: black;
+}
+
+.country .res .abs .main .card16 .content {
+  padding: 4%;
+  width: 100%;
+  position: relative;
+  margin-top: -3rem;
+}
+
+.country .res .abs .main .card16 .content p {
+  text-align: start;
+  font-size: 0.85rem;
+}
+
+.country .res .abs .main .card16 .content .box {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.country .res .abs .main .card16 .content .box .data {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card16 .content .box .data p {
+  font-weight: 500;
+  font-size: 1em;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card16 .content .box .data1 {
+  padding: 0rem 1rem 0rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country .res .abs .main .card16 .content .box .data1 p {
+  font-size: 0.85rem;
+  position: relative;
+  bottom: -0.5rem;
+}
+
+.country .res .abs .main .card16 .content .read_btn {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.country .res .abs .main .card16 .content .read_btn:hover {
+  background: #2828ff;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+}
+
+.country .res .abs .main .card8 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+  grid-area: card8;
+  height: 23rem;
+  width: 25rem;
+  padding: 5.5rem 2rem 9.5rem 2rem;
+  text-align: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.country .res .abs .main .card8 .heading {
+  font-size: 4vh;
+}
+
+.country .res .abs .main .card8 button {
+  background-color: white;
+  height: 3em;
+  width: 3rem;
+  border: none;
+  border-radius: 3rem;
+  -webkit-box-shadow: 0px 3px 6px #c4c4c4;
+          box-shadow: 0px 3px 6px #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  outline: none;
+}
+
+.country .res .abs .main .card8 button img {
+  height: 1rem;
+  color: #3a3aff;
+  margin-top: 1rem;
+}
+
+.country .res .abs .main .card8 button:hover {
+  -webkit-box-shadow: 0px -3px 6px #c4c4c4;
+          box-shadow: 0px -3px 6px #c4c4c4;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 1080px) {
+  .country .res .abs .main {
+    grid-column-gap: 5%;
+    padding: 12rem 5% 10rem 5%;
+  }
+  .country .res .abs .main .card1 {
+    width: 23rem;
+    margin-bottom: 0.9rem;
+  }
+  .country .res .abs .main .card2 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card3 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card4 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card5 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card6 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card7 {
+    width: 23rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card8 {
+    width: 23rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .country .res .abs .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 2rem 5% 10rem 5%;
+        grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8";
+  }
+  .country .res .abs .main .card1 {
+    width: 20rem;
+    text-align: center;
+  }
+  .country .res .abs .main .card1 i {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .country .res .abs .main .card2 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card2 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card3 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card3 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card4 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card4 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card5 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card5 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card6 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card6 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card7 {
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  .country .res .abs .main .card7 .pic .imoge {
+    width: 100%;
+    height: 12.5em;
+  }
+  .country .res .abs .main .card8 {
+    width: 20rem;
+    margin-bottom: 0.9rem;
+    height: 5rem;
+  }
+}
+/*# sourceMappingURL=Country1.css.map */

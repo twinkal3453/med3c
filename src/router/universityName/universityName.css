@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.home {
+  width: 100vw;
+}
+
+.home .sec {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.home .sec #sec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .sec #sec1 .container_img .imoge {
+  width: 85rem;
+  height: 90vh;
+}
+
+.home .sec #sec1 .container_img .university_name {
+  position: relative;
+  top: -12rem;
+  background: white;
+  height: 6rem;
+  width: 50rem;
+  padding-right: 4rem;
+  border-radius: 0 3rem 3rem 0;
+}
+
+.home .sec #sec1 .container_img .university_name h1 {
+  line-height: 6rem;
+  font-size: 2.2rem;
+  float: right;
+}
+
+.home .sec #sec2 {
+  background-image: url(../../Assets//illustration.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 35vh;
+}
+
+.home .sec #sec2 .container_2 {
+  padding: 0 6.5%;
+}
+
+.home .sec #sec2 .container_2 .container_div {
+  min-height: 20rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 3rem;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_text .specs p {
+  font-size: 1.3rem;
+  margin-top: -0.8rem;
+  text-align: start;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_text .specs p span img {
+  width: 0.8rem;
+  height: 0.8rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-right: 1rem;
+}
+
+.home .sec #sec2 .container_2 .container_div .line {
+  width: 0.15rem;
+  height: 18rem;
+  background: #454545;
+  margin-left: 3rem;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee {
+  margin-left: 5%;
+  width: 40rem;
+  height: 17rem;
+  background: white;
+  border-radius: 2.5rem;
+  -webkit-box-shadow: 0 0 5rem rgba(0, 0, 0, 0.226);
+          box-shadow: 0 0 5rem rgba(0, 0, 0, 0.226);
+  overflow: hidden;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .circle {
+  width: 10rem;
+  height: 10rem;
+  background: rgba(255, 0, 255, 0.247);
+  border-radius: 8rem;
+  position: relative;
+  left: -2rem;
+  top: -19rem;
+  float: left;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .circle1 {
+  width: 12rem;
+  height: 12rem;
+  background: rgba(0, 255, 255, 0.24);
+  border-radius: 8rem;
+  position: relative;
+  bottom: 10rem;
+  right: -1rem;
+  float: right;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main {
+  width: 40rem;
+  height: 100%;
+  color: #454545;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main .container_head h3 {
+  margin-top: -1rem;
+  margin-bottom: 1.2rem;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table {
+  border-collapse: collapse;
+  width: 36rem;
+  height: 7.5rem;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table tr th {
+  border: 1px solid #454545;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table tr td {
+  border: 1px solid #454545;
+}
+
+.home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table tr td .feeClasses {
+  margin-bottom: -0.1rem;
+}
+
+.home .sec #sec3 {
+  width: 100vw;
+  min-height: 90vh;
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 5%;
+}
+
+.home .sec #sec3 .container_1 {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 0 5rem rgba(0, 0, 0, 0.178);
+          box-shadow: 0 0 5rem rgba(0, 0, 0, 0.178);
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: start;
+}
+
+.home .sec #sec3 .container_1 h2 {
+  margin-bottom: 2rem;
+}
+
+.home .sec #sec3 .container_1 .sec4 .universityHeader {
+  margin: 1rem 0 1.3rem 0;
+}
+
+.home .sec #sec3 .container_1 .sec4 ul li {
+  margin-top: -0.7rem;
+  list-style: none;
+}
+
+.home .sec #sec3 .container_1 .sec4 ul li .packageClass span .arrow {
+  width: 0.7rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin: 0 1rem 0 0;
+}
+
+.home .sec #sec3 .container_1 .container_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 4.5rem;
+  border-radius: 3rem;
+  -webkit-box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+          box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+}
+
+.home .sec #sec3 .container_1 .container_btn p {
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.home .sec #sec3 .container_1 .container_btn button {
+  margin: 0.7rem 0.7rem 0.7rem 0;
+  width: 12rem;
+  border-radius: 3rem;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  color: blue;
+  font-weight: 500;
+  -webkit-box-shadow: 0 -0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+          box-shadow: 0 -0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.home .sec #sec3 .container_1 .container_btn button:hover {
+  -webkit-box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.192);
+          box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.192);
+  color: blue;
+}
+
+@media only screen and (max-width: 1080px) {
+  .home {
+    width: 100vw;
+  }
+  .home .sec #sec1 .container_img .university_name {
+    background: white;
+    height: 6rem;
+    width: 100%;
+    padding-right: 0;
+    border-radius: 0;
+  }
+  .home .sec #sec1 .container_img .university_name h1 {
+    line-height: 6rem;
+    font-size: 2.2rem;
+    float: none;
+  }
+  .home .sec #sec2 .container_2 {
+    padding: 0;
+  }
+  .home .sec #sec2 .container_2 .container_div {
+    width: 100vw;
+    padding: 5% 10% 5% 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .sec #sec2 .container_2 .container_div .line {
+    width: 20rem;
+    height: 0.12rem;
+    background: #454545;
+    margin: 3rem 0 3rem 0;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    width: 100%;
+    border-radius: 2rem;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main {
+    width: 100%;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data {
+    width: 100%;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 8.5rem;
+  }
+  .home .sec #sec3 .container_1 h2 {
+    margin-top: 1.5rem;
+  }
+  .home .sec #sec3 .container_1 .container_btn p {
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home .sec #sec1 .container_img .university_name {
+    background: white;
+    height: 6rem;
+    width: 100%;
+    padding-right: 0;
+  }
+  .home .sec #sec1 .container_img .university_name h1 {
+    line-height: 6rem;
+    font-size: 5vw;
+    text-align: center;
+    float: none;
+  }
+  .home .sec #sec2 .container_2 {
+    padding: 0;
+  }
+  .home .sec #sec2 .container_2 .container_div {
+    padding: 5% 10px 5% 10px;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_text {
+    width: 100%;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_text .specs p {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee {
+    padding: 0 10px 0 10px;
+    width: 100%;
+    border-radius: 2rem;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main {
+    width: 100%;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data {
+    width: 100%;
+  }
+  .home .sec #sec2 .container_2 .container_div .container_fee .container_main .table_data table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 8.5rem;
+  }
+  .home .sec #sec3 {
+    padding: 5% 10px;
+  }
+  .home .sec #sec3 .container_1 .container_btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10rem;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.205);
+            box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.205);
+  }
+  .home .sec #sec3 .container_1 .container_btn p {
+    margin: 0;
+    font-size: 3.5vw;
+  }
+  .home .sec #sec3 .container_1 .container_btn button {
+    height: 3rem;
+    width: 10rem;
+    margin: 0 0 0.7rem 0;
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=universityName.css.map */

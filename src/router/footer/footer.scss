@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@mixin phone {
+  @media only screen and(max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and(max-width: 1024px) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#footer {
+  background: #001dc2;
+  color: white;
+  padding: 4rem 0 1rem 0;
+
+  .footer_container {
+    width: 100vw;
+    // height: 90%;
+
+    .footer_links {
+      display: grid;
+      grid-template-columns: 20% 20% 35% 25%;
+      text-align: start;
+
+      h6 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+        font-weight: 600;
+      }
+
+      .link {
+        padding: 1rem;
+
+        div {
+          margin-top: 0.4rem;
+          .link_list {
+            list-style: none;
+            color: white;
+            margin-top: -1.4rem;
+            font-weight: 300;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .abroad {
+        padding: 1rem;
+
+        div {
+          margin-top: 0.4rem;
+          .link_list2 {
+            list-style: none;
+            font-weight: 300;
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .address {
+        padding: 1rem;
+      }
+      .contact-us {
+        padding: 1rem;
+
+        .data {
+          margin-top: 2rem;
+          p {
+            margin-top: -1rem;
+            font-size: 0.9rem;
+          }
+        }
+        .social {
+          .social_link {
+            margin-left: 1rem;
+
+            i {
+              margin-top: 0.5rem;
+              font-size: 1.4rem;
+              color: white;
+              transition: 0.3s;
+
+              // &:hover {
+              //   color: rgb(255, 51, 51);
+              // }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.company {
+  background: #001580;
+  height: 10%;
+  line-height: 3rem;
+  // padding: 0 1.5rem 0 1.5rem;
+
+  p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 0 !important;
+  }
+}
+
+@include tablet {
+  #footer {
+    .footer_container {
+      .footer_links {
+        grid-template-columns: 50% 50%;
+      }
+    }
+  }
+}
+@include phone {
+  #footer {
+    padding-top: 1rem;
+    .footer_container {
+      padding: 2rem 5% 1rem 5%;
+      .footer_links {
+        grid-template-columns: auto;
+      }
+    }
+  }
+}

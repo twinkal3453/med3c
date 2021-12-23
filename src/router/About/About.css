@@ -1,0 +1,965 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.About {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.About .res .sec1 {
+  width: 100%;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8rem 12% 10rem 12%;
+}
+
+.About .res .sec1 .sec1_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 11rem;
+}
+
+.About .res .sec1 .sec1_text .about_name {
+  margin: 10% 2% 4% 3%;
+}
+
+.About .res .sec1 .sec1_text .about_name h1 {
+  width: 100%;
+  color: #494949;
+  text-align: start;
+}
+
+.About .res .sec1 .sec1_text .about_name .horizontal_line {
+  width: 7rem;
+  height: 0.08rem;
+  background: #707070;
+  position: relative;
+  top: -0.7rem;
+}
+
+.About .res .sec1 .sec1_text .about_name p {
+  color: #707070;
+  text-align: start;
+}
+
+.About .res .sec1 .sec1_text .pic_img {
+  width: 100%;
+}
+
+.About .res .sec1 .sec1_text .pic_img .dotted_line {
+  width: 31rem;
+  height: 21rem;
+  border: 2px #707070;
+  border-style: dashed;
+  border-image-width: 5px;
+  border-radius: 1.5rem;
+}
+
+.About .res .sec1 .sec1_text .pic_img .dotted_line .image_pic {
+  width: 31rem;
+  height: 21rem;
+  border-radius: 1.5rem;
+  position: relative;
+  bottom: -2rem;
+  right: -2rem;
+}
+
+.About .res .sec2 {
+  width: 100%;
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec2 .sec2_text {
+  width: 100%;
+  min-height: 87vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec2 .sec2_text .gradient {
+  width: 100%;
+  height: 15rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffd392), to(#ff9df7));
+  background-image: linear-gradient(to right, #ffd392, #ff9df7);
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 {
+  padding-left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: -11rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .line_border {
+  margin-right: 2rem;
+  position: relative;
+  top: -12rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .line_border h3 {
+  width: 10rem;
+  color: #707070;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .line_border .border_line {
+  height: 0.1rem;
+  width: 6rem;
+  background-color: #707070;
+  position: relative;
+  top: -0.5rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border {
+  border: 0.15rem dashed #707070;
+  border-radius: 1.5rem;
+  height: 28rem;
+  width: 34rem;
+  position: relative;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .girl_image {
+  height: 22rem;
+  width: 36rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 10rem;
+  left: -26rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec {
+  height: 28rem;
+  width: 34rem;
+  background-color: white;
+  -webkit-box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+          box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+  position: relative;
+  top: -20rem;
+  left: 2rem;
+  border-radius: 1.5rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content {
+  width: 100%;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content h2 {
+  padding: 4% 20% 0 20%;
+  font-size: 1.7rem;
+  color: #494949;
+  text-align: center;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .line2 {
+  height: 0.15rem;
+  width: 8rem;
+  background-color: #ff9df7;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about {
+  height: 100%;
+  width: 100%;
+  padding: 3% 5% 0 5%;
+  text-align: start;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul {
+  list-style: none;
+  display: inline;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul li {
+  font-size: 1rem;
+}
+
+.About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country .second_list {
+  margin-left: 1rem;
+}
+
+.About .res .sec3 {
+  width: 100vw;
+  min-height: 10rem;
+  padding: 0 10% 0 10%;
+}
+
+.About .res .sec3 .text_chhose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec3 .text_chhose .text_container {
+  width: 15rem;
+}
+
+.About .res .sec3 .text_chhose .text_container h2 {
+  color: #454545;
+  width: 15rem;
+  font-weight: 400;
+}
+
+.About .res .sec3 .text_chhose .text_container .line {
+  width: 9rem;
+  height: 0.2rem;
+  background-color: #454545;
+  position: relative;
+  left: 0.5rem;
+  top: -0.45rem;
+}
+
+.About .res .sec3 .text_chhose p {
+  margin-top: 1.5rem;
+}
+
+.About .res .sec4 {
+  padding: 10rem 0 15rem 0;
+  width: 100%;
+  min-height: 90vh;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec4 .container_1 {
+  margin-right: 10%;
+  height: 27.5rem;
+  width: 23rem;
+  border: 0.15rem dashed #707070;
+  border-radius: 2rem;
+}
+
+.About .res .sec4 .container_1 .container_name {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec4 .container_1 .container_name .discription1 {
+  width: 12.3rem;
+  margin-top: -7rem;
+}
+
+.About .res .sec4 .container_1 .container_name .discription1 h2 {
+  color: #454545;
+  font-weight: 400;
+}
+
+.About .res .sec4 .container_1 .container_name .discription1 .line1 {
+  width: 8rem;
+  height: 0.2rem;
+  background: #454545;
+  position: relative;
+  top: -0.45rem;
+}
+
+.About .res .sec4 .container_1 .contain_text1 {
+  background: white;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+  width: 100%;
+  min-height: 27.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.5rem 0;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.281);
+          box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.281);
+}
+
+.About .res .sec4 .container_1 .contain_text1 .root .accordion .accordion_summary {
+  height: 5.2rem;
+  border-bottom: 0.1rem solid #bebebe;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.About .res .sec4 .container_1 .contain_text1 .root .accordion .accordion_details .panel_text {
+  text-align: start;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.About .res .sec4 .container_2 {
+  height: 27.5rem;
+  width: 23rem;
+  border: 0.15rem dashed #707070;
+  border-radius: 2rem;
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+}
+
+.About .res .sec4 .container_2 .contain_text2 {
+  position: relative;
+  bottom: 2.5rem;
+  left: 2.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.281);
+          box-shadow: 0px 0px 5rem rgba(0, 0, 0, 0.281);
+}
+
+.About .res .sec4 .container_2 .contain_text2 .discription2 {
+  width: 12.3rem;
+  position: relative;
+  top: -4.5rem;
+  left: 4rem;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .discription2 h2 {
+  color: #454545;
+  font-weight: 400;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .discription2 .line2 {
+  width: 8rem;
+  height: 0.15rem;
+  background: #454545;
+  position: relative;
+  top: -0.45rem;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval {
+  padding: 2rem 1.5rem 0 1.5rem;
+  text-align: start;
+  list-style: inside;
+  width: 100%;
+  height: 20%;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval ul .list {
+  list-style-type: circle;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval .progress {
+  background: none;
+  border-radius: 3rem;
+  border: 1px solid #454545;
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 0.7rem;
+  padding: 0.1rem;
+  padding-left: 0.18rem;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval .progress .progress_bar1 {
+  margin-top: 0.05rem;
+  border-radius: 2rem;
+  width: 93%;
+  height: 80%;
+  background: #63ffff;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval .progress .progress_bar2 {
+  margin-top: 0.05rem;
+  border-radius: 2rem;
+  width: 95%;
+  height: 80%;
+  background: #ff69ff;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval .progress .progress_bar3 {
+  margin-top: 0.05rem;
+  border-radius: 2rem;
+  width: 98%;
+  height: 80%;
+  background: #3535ff;
+}
+
+.About .res .sec4 .container_2 .contain_text2 .leval .progress .progress_bar4 {
+  margin-top: 0.05rem;
+  border-radius: 2rem;
+  width: 92%;
+  height: 80%;
+  background: #ff5f5f;
+}
+
+.About .res .sec5 {
+  background-image: url(../../Assets//illustration.svg);
+  background-repeat: no-repeat;
+  background-position-y: 8rem;
+  width: 100vw;
+  min-height: 30vh;
+  padding: 3rem 0 5rem 0;
+}
+
+.About .res .sec5 .image_gradient .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec5 .image_gradient .heading .heading_text h1 {
+  color: #454545;
+  font-weight: 400;
+}
+
+.About .res .sec5 .image_gradient .heading .heading_text .line {
+  width: 8rem;
+  height: 0.2rem;
+  background-color: #454545;
+  position: relative;
+  top: -0.45rem;
+}
+
+.About .res .sec5 .image_gradient .services {
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.About .res .sec5 .image_gradient .services .cards {
+  margin: 3rem 0 3rem 0;
+  width: 19rem;
+  height: 23rem;
+  border-radius: 1rem;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.253);
+          box-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.253);
+}
+
+.About .res .sec5 .image_gradient .services .cards h3 {
+  margin: 2rem 2rem 0 2rem;
+}
+
+.About .res .sec5 .image_gradient .services .cards .line {
+  width: 40%;
+  height: 0.2rem;
+  background-color: #fca3ff;
+}
+
+.About .res .sec5 .image_gradient .services .cards .container {
+  padding: 2rem 2rem;
+  text-align: start;
+}
+
+@media only screen and (max-width: 1080px) {
+  .About .res .sec1 {
+    padding: 0 12% 10% 12%;
+    margin-bottom: 20rem;
+  }
+  .About .res .sec1 .sec1_text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .About .res .sec1 .sec1_text .pic_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .About .res .sec1 .sec1_text .pic_img .img_full {
+    width: 31rem;
+    height: 21rem;
+  }
+  .About .res .sec1 .sec1_text .pic_img .img_full .dotted_line .image_pic {
+    width: 31rem;
+    height: 21rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .line_border {
+    margin-right: 0rem;
+    position: relative;
+    top: -20rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .line_border h3 {
+    width: 10rem;
+    color: #707070;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border {
+    border: 0.15rem dashed #707070;
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .girl_image {
+    height: 18rem;
+    width: 30rem;
+    border-radius: 2rem;
+    position: relative;
+    top: -18rem;
+    left: 0rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec {
+    height: 30rem;
+    width: 28rem;
+    background-color: white;
+    -webkit-box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+            box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+    position: relative;
+    top: -20rem;
+    left: 1rem;
+    border-radius: 1.5rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content {
+    width: 100%;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content h2 {
+    padding: 4% 20% 0 20%;
+    font-size: 1.7rem;
+    color: #494949;
+    text-align: center;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .line2 {
+    height: 0.2rem;
+    width: 8rem;
+    background-color: #ff9df7;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about {
+    height: 100%;
+    width: 100%;
+    padding: 3% 5% 0 5%;
+    text-align: start;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul {
+    list-style: none;
+    display: inline;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul li {
+    font-size: 1rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country .second_list {
+    margin-left: 1rem;
+  }
+  .About .res .sec3 {
+    width: 100vw;
+    margin-top: 0;
+    padding: 0 10% 0 10%;
+  }
+  .About .res .sec3 .text_chhose {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .About .res .sec3 .text_chhose .text_container {
+    width: 15rem;
+  }
+  .About .res .sec3 .text_chhose .text_container h2 {
+    color: #454545;
+    width: 15rem;
+  }
+  .About .res .sec3 .text_chhose .text_container .line {
+    width: 9rem;
+    height: 0.2rem;
+    background-color: #454545;
+    position: relative;
+    left: 0.4rem;
+  }
+  .About .res .sec3 .text_chhose p {
+    margin-top: 1.5rem;
+  }
+  .About .res .sec4 {
+    padding: 5rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .About .res .sec4 .container_1 {
+    min-height: 28rem;
+    width: 23rem;
+    margin: 0;
+  }
+  .About .res .sec4 .container_1 .contain_text1 {
+    top: 0;
+    right: 0;
+  }
+  .About .res .sec4 .container_2 {
+    margin-bottom: 8.5rem;
+    height: 28rem;
+    width: 23rem;
+    top: 0;
+    right: 0;
+  }
+  .About .res .sec4 .container_2 .contain_text2 {
+    bottom: 0;
+    left: 0;
+  }
+  .About .res .sec5 {
+    padding: 5rem 0 3rem 0;
+    min-height: 20vh;
+    width: 100vw;
+  }
+  .About .res .sec5 .image_gradient .heading {
+    margin-bottom: 1rem;
+  }
+  .About .res .sec5 .image_gradient .heading .heading_text h1 {
+    font-size: 2rem;
+  }
+  .About .res .sec5 .image_gradient .heading .heading_text .line {
+    height: 0.2rem;
+    width: 7rem;
+    margin-top: -0.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .About .res .sec1 {
+    padding: 10% 10px 10% 10px;
+    margin-bottom: 20rem;
+  }
+  .About .res .sec1 .sec1_text {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .About .res .sec1 .sec1_text .pic_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .About .res .sec1 .sec1_text .pic_img .dotted_line .image_pic {
+    width: 30rem;
+    height: 20rem;
+    bottom: 0;
+    right: 0;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .line_border {
+    margin-right: 0rem;
+    position: relative;
+    top: -20rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .line_border h3 {
+    width: 10rem;
+    color: #707070;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border {
+    border: none;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .girl_image {
+    height: 16rem;
+    width: 28rem;
+    border-radius: 2rem;
+    position: relative;
+    left: -4.5rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec {
+    min-height: 38rem;
+    width: 20rem;
+    background-color: white;
+    -webkit-box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+            box-shadow: 2rem 2rem 3.5rem rgba(0, 0, 0, 0.219);
+    position: relative;
+    top: -20rem;
+    left: 0;
+    border-radius: 1.5rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content {
+    width: 100%;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content h2 {
+    padding: 4% 20% 0 20%;
+    font-size: 1.7rem;
+    color: #494949;
+    text-align: center;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .line2 {
+    height: 0.2rem;
+    width: 8rem;
+    background-color: #ff9df7;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about {
+    height: 100%;
+    width: 100%;
+    padding: 3% 5% 0 5%;
+    text-align: start;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul {
+    list-style: none;
+    display: inline;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country ul li {
+    font-size: 1rem;
+  }
+  .About .res .sec2 .sec2_text .gradient .text1 .data_border .image_girl .data_border_sec .content .text_about .data_country .second_list {
+    margin-left: 1rem;
+  }
+  .About .res .sec3 {
+    width: 100vw;
+    margin-top: 3rem;
+    padding: 0 10% 0 10%;
+  }
+  .About .res .sec3 .text_chhose {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .About .res .sec3 .text_chhose .text_container {
+    width: 15rem;
+  }
+  .About .res .sec3 .text_chhose .text_container h2 {
+    color: #454545;
+    width: 15rem;
+  }
+  .About .res .sec3 .text_chhose .text_container .line {
+    width: 9rem;
+    height: 0.2rem;
+    background-color: #454545;
+    position: relative;
+    left: 0.4rem;
+  }
+  .About .res .sec3 .text_chhose p {
+    margin-top: 1.5rem;
+  }
+  .About .res .sec4 {
+    padding: 5rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .About .res .sec4 .container_1 {
+    margin: 0;
+    min-height: 28rem;
+    width: 20rem;
+    border: none;
+  }
+  .About .res .sec4 .container_1 .contain_text1 {
+    top: 0;
+    right: 0;
+  }
+  .About .res .sec4 .container_2 {
+    border: none;
+    margin-bottom: 8.5rem;
+    min-height: 28rem;
+    width: 20rem;
+    top: 0;
+    right: 0;
+  }
+  .About .res .sec4 .container_2 .contain_text2 {
+    bottom: 0;
+    left: 0;
+  }
+  .About .res .sec5 {
+    padding: 6rem 0 3rem 0;
+    min-height: 20vh;
+    width: 100vw;
+    background-size: cover;
+    background-position-y: 0rem;
+  }
+  .About .res .sec5 .image_gradient .heading {
+    margin-bottom: -1rem;
+  }
+  .About .res .sec5 .image_gradient .heading .heading_text h1 {
+    font-size: 1.7rem;
+  }
+  .About .res .sec5 .image_gradient .heading .heading_text .line {
+    height: 0.2rem;
+    width: 6rem;
+    margin-top: -0.2rem;
+  }
+  .About .res .sec5 .image_gradient .services .cards {
+    width: 15rem;
+    height: 19rem;
+  }
+  .About .res .sec5 .image_gradient .services .cards h3 {
+    margin: 2rem 2rem 0 2rem;
+    font-size: 1.1rem;
+  }
+  .About .res .sec5 .image_gradient .services .cards .line {
+    width: 40%;
+    height: 0.12rem;
+    background-color: #fca3ff;
+  }
+  .About .res .sec5 .image_gradient .services .cards .container {
+    padding: 2rem 1rem;
+    text-align: start;
+  }
+}
+/*# sourceMappingURL=About.css.map */

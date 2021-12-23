@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@mixin phone {
+  @media only screen and(max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and(max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin tablet-min {
+  @media only screen and(max-width: 780px) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.home {
+  .sec {
+    width: 100%;
+    overflow-x: hidden;
+
+    #sec1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .container_img {
+        .imoge {
+          width: 100vw;
+        }
+
+        .university_name {
+          position: relative;
+          bottom: 8rem;
+          background: white;
+          padding: 1rem;
+
+          h1 {
+            font-size: 3.3vw;
+            text-align: center;
+            margin-bottom: 0 !important;
+          }
+        }
+      }
+    }
+
+    .stick_whatsapp {
+      position: fixed;
+      top: 74vh;
+      right: 0;
+      width: 5rem;
+      padding-top: 0.4rem;
+
+      .social_links {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+
+        a {
+          margin-bottom: 0.5rem;
+        }
+
+        .fab {
+          margin: 0 auto;
+          transition: 0.3s;
+          background: white;
+          height: 2.3rem;
+          width: 2.3rem;
+          text-align: center;
+          border-radius: 3rem;
+          line-height: 2.3rem;
+          box-shadow: 0 0 1rem rgba(133, 133, 133, 0.568);
+        }
+        .fa-facebook-square {
+          color: #4267b2;
+        }
+        .fa-whatsapp-square {
+          color: #25d366;
+        }
+      }
+    }
+
+    //   Section 2
+    #sec2 {
+      background-image: url(../../Assets//illustration.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      min-height: 35vh;
+
+      .container_2 {
+        padding: 0 6.5%;
+
+        .container_div {
+          min-height: 20rem;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .container_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 3rem;
+            .specs {
+              p {
+                span {
+                  img {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    transform: rotate(90deg);
+                    margin-right: 1rem;
+                  }
+                }
+                font-size: 1.3rem;
+                margin-top: -0.8rem;
+                text-align: start;
+              }
+            }
+          }
+
+          .line {
+            width: 0.15rem;
+            height: 18rem;
+            background: #454545;
+            margin-left: 3rem;
+          }
+
+          .container_fee {
+            margin-left: 5%;
+            width: 40rem;
+            height: 17rem;
+            background: white;
+            border-radius: 2.5rem;
+            box-shadow: 0 0 5rem rgba(0, 0, 0, 0.226);
+            overflow: hidden;
+
+            .circle {
+              width: 10rem;
+              height: 10rem;
+              background: rgba(255, 0, 255, 0.247);
+              border-radius: 8rem;
+              position: relative;
+              left: -2rem;
+              top: -19rem;
+              float: left;
+            }
+
+            .circle1 {
+              width: 12rem;
+              height: 12rem;
+              background: rgba(0, 255, 255, 0.24);
+              border-radius: 8rem;
+              position: relative;
+              bottom: 10rem;
+              right: -1rem;
+              float: right;
+            }
+
+            .container_main {
+              width: 40rem;
+              height: 100%;
+              color: #454545;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+
+              .container_head {
+                h3 {
+                  margin-top: -1rem;
+                  margin-bottom: 1.2rem;
+                }
+              }
+
+              .table_data {
+                table {
+                  border-collapse: collapse;
+                  width: 36rem;
+                  height: 7.5rem;
+
+                  tr {
+                    th {
+                      border: 1px solid #454545;
+                    }
+                    td {
+                      border: 1px solid #454545;
+                      .feeClasses {
+                        margin-bottom: -0.1rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //   Section 3
+    #sec3 {
+      width: 100vw;
+      min-height: 90vh;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5% 5%;
+
+      .container_1 {
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 0 5rem rgba(0, 0, 0, 0.178);
+        border-radius: 2rem;
+        padding: 2rem;
+        text-align: start;
+
+        h2 {
+          margin-bottom: 2rem;
+        }
+
+        .sec4 {
+          .universityHeader {
+            margin: 1rem 0 1.3rem 0;
+          }
+          ul {
+            li {
+              margin-top: -0.7rem;
+              list-style: none;
+              .packageClass {
+                span {
+                  .arrow {
+                    width: 0.7rem;
+                    transform: rotate(90deg);
+                    margin: 0 1rem 0 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .container_btn {
+          display: flex;
+          justify-content: space-between;
+          height: 4.5rem;
+          border-radius: 3rem;
+          box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+
+          p {
+            line-height: 4.5rem;
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-left: 2rem;
+          }
+
+          button {
+            margin: 0.7rem 0.7rem 0.7rem 0;
+            width: 12rem;
+            border-radius: 3rem;
+            border: none;
+            background: none;
+            font-size: 1.5rem;
+            color: blue;
+            font-weight: 500;
+            box-shadow: 0 -0.3rem 0.4rem rgba(0, 0, 0, 0.137);
+            transition: 0.2s ease-in-out;
+          }
+          button:hover {
+            box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.192);
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .home {
+    width: 100vw;
+    .sec {
+      #sec1 {
+        .container_img {
+          .university_name {
+            background: white;
+            bottom: 6rem;
+            padding-right: 0;
+            border-radius: 0;
+          }
+        }
+      }
+
+      #sec2 {
+        .container_2 {
+          padding: 0;
+          .container_div {
+            width: 100vw;
+            padding: 5% 10% 5% 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .line {
+              width: 20rem;
+              height: 0.12rem;
+              background: #454545;
+              margin: 3rem 0 3rem 0;
+            }
+            .container_fee {
+              margin: 0;
+              padding: 0 1rem 0 1rem;
+              width: 100%;
+              border-radius: 2rem;
+
+              .container_main {
+                width: 100%;
+
+                .table_data {
+                  width: 100%;
+                  table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    height: 8.5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #sec3 {
+        .container_1 {
+          h2 {
+            margin-top: 1.5rem;
+          }
+
+          .container_btn {
+            p {
+              font-size: 2.7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include phone {
+  .home {
+    .sec {
+      #sec1 {
+        .container_img {
+          .university_name {
+            background: white;
+            padding: 0.5rem;
+            bottom: 3rem;
+
+            h1 {
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      #sec2 {
+        .container_2 {
+          padding: 0;
+          .container_div {
+            padding: 5% 10px 5% 10px;
+            .container_text {
+              width: 100%;
+              .specs {
+                p {
+                  font-size: 1rem;
+                  margin-left: 1rem;
+                }
+              }
+            }
+            .container_fee {
+              padding: 0 10px 0 10px;
+              width: 100%;
+              border-radius: 2rem;
+
+              .container_main {
+                width: 100%;
+
+                .table_data {
+                  width: 100%;
+                  table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    // height: 8.5rem;
+
+                    tr {
+                      th {
+                        font-size: 13px;
+                      }
+                      td {
+                        font-size: 13px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #sec3 {
+        padding: 5% 10px;
+        .container_1 {
+          .container_btn {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 10rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.205);
+
+            p {
+              margin: 0;
+              font-size: 3.5vw;
+            }
+            button {
+              height: 3rem;
+              width: 10rem;
+              margin: 0 0 0.7rem 0;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
